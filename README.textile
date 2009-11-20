@@ -1,0 +1,9 @@
+h1. "titlecase-itunes-tracks":http://github.com/johnmyleswhite/titlecase-itunes-tracks
+
+This utility will allow you to systematically clean up the names of the tracks in your iTunes library if you're using a Mac that's running Leopard or Snow Leopard. To use this program, you'll need to have MacRuby 0.5 or higher installed on your system. You can get MacRuby from "http://macruby.org":http://www.macruby.org/
+
+Once you have MacRuby installed, open up a Terminal window and move into the directory that this README.textfile file is contained in. While in that directory, type
+
+<code>macruby titlecase-itunes-tracks.rb</code>
+
+Running this command will edit the artist, album and track name information for every file in your Music library in iTunes. When the program finishes running, all of these text fields will be written in proper English title case. Information about each change being made will be printed to the screen as it happens.
